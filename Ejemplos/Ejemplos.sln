@@ -9,6 +9,12 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Ejemplo2_TPT", "Ejemplo2_TP
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Ejemplo3_TPC", "Ejemplo3_TPC\Ejemplo3_TPC.sqlproj", "{97A4F6D9-039B-49C5-AED9-8D3D22BEA664}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\modelo_de_datos.jpg = Docs\modelo_de_datos.jpg
+		Docs\Modelo_de_datos.uml = Docs\Modelo_de_datos.uml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

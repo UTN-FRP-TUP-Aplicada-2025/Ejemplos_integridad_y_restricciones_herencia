@@ -62,7 +62,5 @@
     <None Include="1_TPT_ejemplo.sql" />
     <None Include="Readme.md" />
     <None Include="Docs\consulta.jpg" />
-    <None Include="Docs\modelo_de_datos.jpg" />
-    <None Include="Docs\Modelo_de_datos.uml" />
   </ItemGroup>
 </Project>

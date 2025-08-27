@@ -1,4 +1,7 @@
 ﻿
+
+-- Ejercicio 2 - Table per Type (TPT)
+
 USE master;
 
 GO
@@ -67,6 +70,8 @@ VALUES
 
 GO
 
+-- Consulta de las figuras
+
 SELECT f.Id, 
 		Tipo=CASE WHEN r.Id IS NOT NULL THEN 'Rectángulo'
 		          WHEN c.Id IS NOT NULL THEN 'Círculo'
@@ -78,6 +83,8 @@ LEFT JOIN Rectangulos r ON r.Id=f.Id
 LEFT JOIN Circulos c ON c.Id=f.Id;
 
 GO
+
+
 
 USE master
 

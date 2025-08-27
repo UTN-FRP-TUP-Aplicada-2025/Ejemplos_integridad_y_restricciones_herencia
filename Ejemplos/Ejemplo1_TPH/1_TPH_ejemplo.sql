@@ -1,4 +1,7 @@
 ﻿
+
+-- Ejercicio 1 - Table Per Hierarchy (TPH)
+
 USE master;
 
 
@@ -38,6 +41,9 @@ VALUES
 (2, 3.1415*5.0, NULL, NULL, 5.00);		-- Círculo de radio 5
 
 GO
+
+
+-- Consulta de las figuras
 
 SELECT Id, 
 	   Tipo = CASE Tipo 

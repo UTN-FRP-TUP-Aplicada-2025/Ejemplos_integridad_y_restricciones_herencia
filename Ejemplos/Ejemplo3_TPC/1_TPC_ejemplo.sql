@@ -1,4 +1,7 @@
 ﻿
+
+-- Ejercicio 3 - Table per Concrete Class (TPC)
+
 USE master;
 
 GO
@@ -45,6 +48,8 @@ VALUES
 ( 3.1415*5.0 , 5.00);			-- Círculo de radio 5
 
 GO
+
+-- Consulta de las figuras
 
 -- emulando la consulta del TPH
 

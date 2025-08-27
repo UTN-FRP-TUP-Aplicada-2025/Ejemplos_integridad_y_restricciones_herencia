@@ -61,8 +61,6 @@
   <ItemGroup>
     <None Include="1_TPH_ejemplo.sql" />
     <None Include="Readme.md" />
-    <None Include="Docs\Modelo_de_datos.uml" />
-    <None Include="Docs\Modelo_de_datos.jpg" />
     <None Include="Docs\consulta.jpg" />
   </ItemGroup>
 </Project>
